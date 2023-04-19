@@ -1,0 +1,139 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+
+}
+
+h2 {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Estilos de encabezado y navegación */
+header {
+  background: #3AA3EB;
+  background: -moz-linear-gradient(left, #3AA3EB 0%, #2388CB 45%, #144E75 100%);
+  background: -webkit-linear-gradient(left, #3AA3EB 0%, #2388CB 45%, #144E75 100%);
+  background: linear-gradient(to right, #3AA3EB 0%, #2388CB 45%, #144E75 100%);
+  color: #fff;
+  padding: 1rem;
+  -webkit-box-shadow: 5px 5px 20px 5px #000000;
+  box-shadow: 5px 5px 20px 5px #000000;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 5px;
+
+
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+}
+
+/* Estilos de sección */
+section {
+  padding: 2rem 1rem;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+}
+
+section ul li {
+  margin-bottom: 1rem;
+}
+
+/* Estilos de formulario */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+#foto_cv{
+  border-radius: 150px;
+  width: 20%;
+  margin-right: 160px;
+  margin-left: 40px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+}
+
+#top{
+  align-self: center;
+}
