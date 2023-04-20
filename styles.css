@@ -127,6 +127,7 @@ button[type="submit"]:hover {
   width: 80%;
   margin-right: 160px;
   margin-left: 25px;
+  height: 100%;
 }
 
 #foto{
